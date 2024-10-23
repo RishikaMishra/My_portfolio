@@ -224,3 +224,52 @@
         font-size: 14px;
     }
 }
+/* after accept edit by coderx team */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .heady h1 {
+    font-size: 36px;
+  }
+  
+  .heady h2 {
+    font-size: 18px;
+  }
+
+  .link-icons-1 a {
+    font-size: 24px;
+  }
+  
+  .about img {
+    width: 80%;
+    height: auto;
+  }
+
+  .abt2 h3 {
+    font-size: 24px;
+  }
+
+
+  .col-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+
+@media only screen and (max-width: 576px) {
+  .abt2 p {
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  .container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+/* end edit  */
